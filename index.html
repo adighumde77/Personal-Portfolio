@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Aditya Personal Portfolio website</title>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>        
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi, I'm <span>Aditya Ghumade</span></h1>
+        </div>
+    </div>
+ </div>
+
+    <!--------about------->
+    <div id="about">
+        <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+            <img src="image.jpg/aditya1.jpg" >
+         </div>
+         <div class="about-col-2">
+                 <h1 class="sub-title">About Me</h1>
+                <p>Logical and organised individual with a strong foundation in software. Proficient in python and java. seeking to raise Coding KPI's
+                    by providing error-free code. Ability to translate business requirements into innovative software Solutions. Excellent teamwork, inter‐
+                    personal and communication skills. Looking to start a career as an entry-level professional with a reputed company.. </p>
+     
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Technical Skills</span><br>java,HTML/CSS, Bootstrap,ReactJS,SQL,Tally ERP-9 GitHub,C,C++,Word/Execl,MS-Office, Web-Developement,</li>
+                        <li><span>Languages</span><br>Marathi, Hindi, English</li>
+                        <li><span>Certifications</span><br>At-Accenture(freelance) - Data Analytics and Visualization, At-University Skill Developement Center - Web Developmet and Android Programming </li>
+                        <li><span>Software</span><br>Visual Studio Code, Tally ERP Software, GitHub, Photoshop, Android Studio, SQL, MS FrontPage/Teams/Excel/Word,Zoom</li>
+                    </ul>
+                </div>
+               
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-Present</span><br> Sri Ramaswamy Memorial Institute of Science and Technology - Master of Computer Application (MCA) </li>
+                        <li><span>2020-2023</span><br>Kamla Nehru Mahavidyalaya, Nagpur - Bachelor of Computer Application (BCA) </li>
+                        <li><span>2019</span><br>12th,Ashok Jr College,Umrred </li>
+                    </ul>
+                </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!---------my projects--------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-clipboard-user"></i>
+                <h2> WEATHER </h2>
+                <p>Weather forecast app provides detailed local forecast & weather forecast world wide, the app provides the current temperature, sunrise and sunset time according to city time zone. </p>
+                <a href="#">Learn more</a>
+            </div>
+            
+            <div>
+                <i class="fa-regular fa-address-card"></i>
+                <h2>My Personal Portfolio </h2>
+                <p> Here, you’ll find my resume, skill set, professional experience, educational background, key projects, and contact information. Explore to learn more about my journey, technical expertise, and the work I’m passionate about. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="srgs-project">
+            <div class="srgs">
+                <img src="image.jpg/Screenshot 2025-01-20 162244.png">
+            </div>
+            <div class="srgs">
+                <img src="image.jpg/Screenshot 2025-01-20 162244.png">
+            </div>
+            <div class="srgs">
+                <img src="image.jpg/Screenshot 2025-01-20 162614.png">
+            </div>
+            <div class="srgs">
+                <img src="image.jpg/Screenshot 2025-01-20 162622.png">
+            </div>
+            <div class="srgs">
+                <img src="image.jpg/Screenshot 2025-01-20 162644.png">
+            </div>
+            <div class="srgs">
+                <img src="image.jpg/Screenshot 2025-01-20 162650.png">
+            </div>
+<!---------------add more stuff ("add more" to expand)------------>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!----------contact me-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> adityaghumde77@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+919168355484</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/adi_ghumde/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/adityaghumde?s=11&t=9W7D7hirMgbiOw1mRQaXwA"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/adighumde77"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-ghumde-575923219"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="image.jpg/adityaghumdeResume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-mail" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @adityaghumde77. Made By Aditya Ghumade <i><i class="fa-solid fa-poo"></i></i></p>
+    </div>
+
+</div>
+
+
+</body>
+</html>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+      
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents ){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+
+</script> 
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzKQCFDHeuag-ZJ_qCKMswixcSSnl0hhe9d35CVU_ibUWsRFxA56nWQKgnsMkyx8GY/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully To Aditya !"
+            setTimeout(function(){
+                msg.innerHTML=""
+
+            },9000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
